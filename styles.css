@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Young Serif";
+  src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  font-family: "Outfit";
+  line-height: 1.7;
+}
+
+body {
+  background: hsl(32.5, 46.15%, 89.8%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  width: 60%;
+  border-radius: 20px;
+  padding: 40px 0;
+  gap: 25px;
+}
+
+.container * {
+  width: 90%;
+}
+
+.recipe-image {
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 2.9rem;
+  color: hsl(24, 5%, 18%);
+}
+
+.prep-time-container {
+  background: hsl(330, 100%, 98%);
+  border-radius: 15px;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+  padding: 20px 30px;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif";
+  font-weight: 400;
+}
+
+p,
+li {
+  font-size: 1rem;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
