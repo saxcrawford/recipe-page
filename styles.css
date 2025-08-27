@@ -51,9 +51,39 @@ h1 {
   border-radius: 15px;
 }
 
+.prep-time-inner-container {
+  padding: 20px 0;
+}
+
 h3 {
   color: hsl(332, 51%, 32%);
-  padding: 20px 30px;
+  padding: 0 25px;
+}
+
+.prep-time-container li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+li {
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+ol li::marker {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 30px;
+  color: hsl(14, 45%, 36%);
+}
+
+.solid {
+  opacity: 15%;
 }
 
 h1,
@@ -67,4 +97,41 @@ li {
   font-size: 1rem;
   font-weight: 400;
   color: hsl(30, 10%, 34%);
+}
+
+table {
+  table-layout: fixed;
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.table-bold {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+
+.table-row-border {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+td {
+  padding: 10px 10px 10px 0;
+  color: hsl(30, 10%, 34%);
+}
+
+.table-data {
+  padding-left: 30px;
+}
+
+@media (max-width: 375px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 100%;
+    border-radius: 0;
+    height: 100%;
+  }
 }
