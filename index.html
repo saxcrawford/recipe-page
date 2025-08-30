@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
@@ -17,7 +16,7 @@
     <title>Frontend Mentor | Recipe page</title>
   </head>
   <body>
-    <div class="container">
+    <main class="container">
       <img
         src="./assets/images/image-omelette.jpeg"
         alt="White plate with omelet filled with vegetables"
@@ -31,7 +30,7 @@
       </p>
       <div class="prep-time-container">
         <div class="prep-time-inner-container">
-          <h3>Preparation time</h3>
+          <h2 class="prep-time-heading">Preparation time</h2>
           <ul>
             <li><strong>Total</strong>: Approximately 10 minutes</li>
             <li><strong>Preparation</strong>: 5 minutes</li>
@@ -40,7 +39,7 @@
         </div>
       </div>
       <h2>Ingredients</h2>
-      <ul>
+      <ul class="ingredient-list">
         <li>2-3 large eggs</li>
         <li>Salt, to taste</li>
         <li>Pepper, to taste</li>
@@ -49,7 +48,6 @@
           Optional fillings: cheese, diced vegetables, cooked meats, herbs
         </li>
       </ul>
-      <hr class="solid" />
       <h2>Instructions</h2>
       <ol>
         <li>
@@ -81,7 +79,6 @@
           needed.
         </li>
       </ol>
-      <hr class="solid" />
       <h2>Nutrition</h2>
       <p>
         The table below shows nutritional values per serving without the
@@ -89,28 +86,28 @@
       </p>
       <table>
         <tr class="table-row-border">
-          <td class="table-data">Calories</td>
+          <th scope="row" class="table-data">Calories</th>
           <td class="table-bold">277kcal</td>
         </tr>
         <tr class="table-row-border">
-          <td class="table-data">Carbs</td>
+          <th scope="row" class="table-data">Carbs</th>
           <td class="table-bold">0g</td>
         </tr>
         <tr class="table-row-border">
-          <td class="table-data">Protein</td>
+          <th scope="row" class="table-data">Protein</th>
           <td class="table-bold">20g</td>
         </tr>
         <tr>
-          <td class="table-data">Fat</td>
+          <th scope="row" class="table-data">Fat</th>
           <td class="table-bold">22g</td>
         </tr>
       </table>
-    </div>
-    <div class="attribution">
+    </main>
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+      >. Coded by <a href="#">Saxon Crawford</a>.
+    </footer>
   </body>
 </html>
